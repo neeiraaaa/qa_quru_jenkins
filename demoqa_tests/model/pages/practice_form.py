@@ -18,7 +18,7 @@ class Form:
         browser.element('.table').all('td').even.should(have.texts(args))
 
     def given_opened(self):
-        browser.open('/automation-practice-form')
+        browser.open('https://demoqa.com/automation-practice-form')
 
     def add_name_and_surname(self, user):
         browser.element('#firstName').type(user.first_name)
