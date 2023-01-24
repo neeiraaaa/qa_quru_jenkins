@@ -1,8 +1,8 @@
 import allure
 from allure_commons.types import Severity
 
-from qa_guru_pageObjects_3_9.demoqa_tests.model.pages.practice_form import Form
-from qa_guru_pageObjects_3_9.demoqa_tests.data.user_data import irina_rogova
+from demoqa_tests.model.pages.practice_form import Form
+from demoqa_tests.data.user_data import irina_rogova
 
 
 @allure.title("Successful fill form")

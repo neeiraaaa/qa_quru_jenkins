@@ -3,7 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-qa_guru_pageObjects_3_9/.pytest_cache
+.pytest_cache
+/v
 
 # C extensions
 *.so

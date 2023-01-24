@@ -1,12 +1,12 @@
 from selene import command, have
 from selene.support.shared import browser
 
-from qa_guru_pageObjects_3_9.demoqa_tests.data.user_data import User
-from qa_guru_pageObjects_3_9.demoqa_tests.model.controls.checkbox import Checkbox
-from qa_guru_pageObjects_3_9.demoqa_tests.model.controls.dropdown import Dropdown
-from qa_guru_pageObjects_3_9.demoqa_tests.model.controls.option_select import Select
-from qa_guru_pageObjects_3_9.demoqa_tests.model.controls.radiobutton import Radio
-from qa_guru_pageObjects_3_9.demoqa_tests.utils import add_path
+from demoqa_tests.data.user_data import User
+from demoqa_tests.model.controls.checkbox import Checkbox
+from demoqa_tests.model.controls.dropdown import Dropdown
+from demoqa_tests.model.controls.option_select import Select
+from demoqa_tests.model.controls.radiobutton import Radio
+from demoqa_tests.utils import add_path
 
 
 class Form:
