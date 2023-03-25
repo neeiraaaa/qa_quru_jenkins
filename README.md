@@ -21,22 +21,22 @@
 
 <!-- Jenkins -->
 
-### <img width="3%" title="Jenkins" src="resources/logo/jenkins.png"> Запуск проекта в Jenkins
+### <img width="3%" title="Jenkins" src="tests/resources/logo/jenkins.png"> Запуск проекта в Jenkins
 
 ### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
-![This is an image](resources/screenshots/jenkins1.png)
+![This is an image](tests/resources/screenshots/jenkins1.png)
 
 <!-- Allure report -->
 
-### <img width="3%" title="Allure Report" src="resources/logo/allure_report.png"> Allure report
+### <img width="3%" title="Allure Report" src="tests/resources/logo/allure_report.png"> Allure report
 
 ##### После прохождения тестов, результаты автоматически сохраняются. Чтобы посмотреть Allure отчет нужно нажать на иконке allure report у сборки.
-![This is an image](resources/screenshots/allure.png)
+![This is an image](tests/resources/screenshots/allure.png)
 
 ##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
-![This is an image](resources/screenshots/allure_suites.png)
+![This is an image](tests/resources/screenshots/allure_suites.png)
 
 ##### Видео прохождение теста
-![This is an image](resources/screenshots/tests_ui.gif)
+![This is an image](tests/resources/video/tests_ui.gif)
